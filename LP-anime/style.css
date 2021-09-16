@@ -1,0 +1,233 @@
+header{
+	background: radial-gradient(#DCDCDC, #999999);
+	height: 300px;
+	width: 100%;
+	box-shadow: 0 10px ;
+	border-bottom: 3px solid #D10000;
+
+
+}
+.titulo-cabeçario{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 60px;
+	font-weight: bold;
+	width: 880px;
+	height: 85px;
+	padding-top: 57.5px; 
+	margin:auto;
+	text-shadow: 30px 45px #999999;
+}
+.titulo-cabeçario:before{
+	content: "愛";
+	font-weight: normal;
+	color: #C22222;
+}
+.titulo-cabeçario:first-letter{
+	font-size: 85px;
+}
+.x{
+	color: red;
+	font-size: 70.1px;
+}
+
+#menu-h{
+    background-color: #555555;
+    width: 100%;
+    
+}
+
+#menu-h ul {
+    list-style: none;
+    margin-left: 10%;
+}
+
+#menu-h ul li {
+    display: inline;
+
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    
+}
+
+#menu-h ul li a:hover {
+    background-color: #C10000;
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: #C10000;
+    margin-right: 10%;
+}
+
+/*CORPO DO PROJETO*/ 
+
+.corpo{
+	width: 100%;
+	background-image: url("nuvens.png");
+	padding: 60px 0 60px 0;
+	box-shadow: inset 0 0 1000px #111111 ;
+}
+.corpo-2{
+	width: 85%;
+	margin: 0 auto;
+	background-image: url("background.jpg");
+	box-shadow: 20px 20px 25px #111111 ;
+	border-radius: 15px;
+	border: 4px solid #FFD700;
+}
+.anime-xtreme{
+	margin: 0 25%;
+	width: 50%;
+	background: black;
+
+}
+.form{
+	width: 70%;
+	margin: 0 auto;
+}
+.titulo-form{
+	font-size: 45px;
+	color: #FFFFFF;
+	margin: 5px 0 50px 0;
+	width: 100%;
+	background: black;
+	font-family: 'Dancing Script', cursive;
+}
+
+.form label{
+	display: block;
+	font-size: 20px;
+	margin: 30px 0 10px 0;
+	color: white;
+}
+
+.input-padrao {
+	display: block;
+	font-weight: bold;
+	padding: 7px 100px 7px 10px;
+	border-radius: 10px;
+	transition: 0.2s all;
+	border: 3.5px solid #FFD700;
+	background: #F1F1F1;
+
+}
+
+.input-padrao:hover{
+	transform: scale(1.06);
+}
+
+#submit{
+	width: 35%;
+	padding: 15px 0;
+	background: #0F45BB;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	border: none;
+	border-radius: 15px;
+	transition: 0.2s all;
+	cursor: pointer;
+	margin: 3.2em 0 4.3em 0 ;
+}
+#submit:hover{
+	background: #1506C6;
+	transform: scale(1.2);
+}
+
+.video{
+	margin: 80px auto;
+	width: 560px;
+}
+.video iframe{
+	border-radius: 10px;
+	border: 5px solid #FFD700;
+}
+.video iframe:hover{
+	border: 5px solid #5FFF00;	
+}
+.tabela{
+	color: white;
+	background: #CD8D00;
+	margin-top: 50px;
+}
+thead{
+	background: #555555;
+	font-weight: bold;
+	color: white;
+	font-size: 25px;	
+
+}
+.atraçao{
+	border: 2px solid #FFD700;
+	padding: 0 100px;
+	
+}
+.tabela td {
+	border: 3px solid #FFD700;
+	width: 100%;
+	height: 170px;
+}
+.imagens-tabela{
+	height: 100%;
+	width: 100%;
+	border-radius: 15px;
+	transition: 0.2s all;
+	margin: auto;
+}
+.imagens-tabela:hover{
+	transform: scale(1.6);
+}
+
+/* Rodapé */
+footer{
+	background-image: url("itachi.jpg");
+	width: 100%;
+}
+
+.lindos{
+	margin: 40px 180px;
+	border-radius: 80px;
+	border: 4px solid #FFD700;
+	transition: 0.6s;
+}
+.lindos:hover{
+	transform: scale(1.4);
+}
+.rodape1{
+	width: 300px;
+	height: 200px;
+	margin: 0 90px ;
+	display:inline-block;
+}
+.criadores{
+	font-size: 40px;
+	color: white;
+	margin-bottom: 40px;
+}
+.lista-criadores{
+	font-size: 30px;
+	color: white;
+	width: 300px;
+	
+}
+.rodape2{
+	width: 450px;
+	height: 200px;
+	margin: 0 auto;
+	display: inline-block;
+}
+.contatos{
+	font-size: 40px;
+	color: white;
+	margin-bottom: 40px;
+}
+.lista-contatos{
+	font-size: 30px;
+	color: white;
+}
